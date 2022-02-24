@@ -7,24 +7,20 @@
 3- *Semi-Supervised Learning*: Input data is a mixture of labeled and unlabeled examples. ex: a photo archive where only some of the images are labeled, (e.g. dog, cat, person) and the majority are unlabeled.
 4- *Reinforcement Learning*: A goal-oriented learning based on interaction with environment. Autonomous cars.
 
--   
-Supervised Machine Learning
-Regression: Linear Regression, Logistic Regression
+  
+###### Supervised Machine Learning
+- Regression: Linear Regression, Logistic Regression
+- Instance-based Algorithms: k-Nearest Neighbor (KNN)
+- Decision Tree Algorithms: CART
+- Bayesian Algorithms: Naive Bayes
+- Ensemble Algorithms: eXtreme Gradient Boosting
+- Deep Learning Algorithms: Convolution Neural Network
 
-Instance-based Algorithms: k-Nearest Neighbor (KNN)
+###### Classification vs Regression
+Classification predicting a label 
+Regression predicting a quantity.
 
-Decision Tree Algorithms: CART
-
-Bayesian Algorithms: Naive Bayes
-
-Ensemble Algorithms: eXtreme Gradient Boosting
-
-Deep Learning Algorithms: Convolution Neural Network
-
-Classification vs Regression
-Classification predicting a label .vs. Regression predicting a quantity.
-
-Classification Algorithms Examples:
+###### Classification Algorithms Examples:
 Linear: Linear Regression, Logistic Regression
 Nonlinear: Trees, k-Nearest Neighbors
 Ensemble:
@@ -33,27 +29,24 @@ Boosting: AdaBoost
 Machine Learning Pipeline:
 Define Problem
 
-ML type of problem
-Prepare Data
+###### ML type of problem
+-Prepare Data
 
-Data Visualization methos ...
+###### Data Visualization methods 
 Data Selection
 Feature Selection methods ..
 Feature Engineering methods ..
 Data Transormation methods ..
 Spot Check Algorithm
 
-Test Harness ...
-Perform Measure ...
-Evaluate accuracy of different algorithms
-Improve Results
-
-Algorithms Turning methids
+###### Test Harness 
+Perform Measure 
+###### Evaluate accuracy of different algorithms
+###### Improve Results
+###### Algorithms Turning methids
 ensemble methods
 Present Results
-
-Save the model
-
+###### Save the model
 
 
 The 4 C's of Data Cleaning: Correcting, Completing, Creating, and Converting¶

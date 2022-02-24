@@ -47,7 +47,7 @@ Spot Check Algorithm
 - Converting fields to the correct format for calculations 
  
  <p></p>
- 
+##### Sample Diabetes ML  
 - Loading Dataset
 - Information About Dataset columns and Summary
 - Cleaning Data Eliminate Null values and zeros, Drop dublicates

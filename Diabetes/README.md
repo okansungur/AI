@@ -88,4 +88,30 @@ Differences in the scales across input variables may increase the difficulty of 
 ###### Quantile Transformer 
  Now we will use Quantile Transformer  This method transforms the features to follow a uniform or a normal distribution.
 outliers are still present in this dataset but their impact has been reduced and we will check it byboxplot again
+
+
+
+After Grid Search, we got best parameters for all the models. Now, we going to tune hyperparameters see how to it perform.
+
+True Positives (TP) - These are the correctly predicted positive values which means that the value of actual class is yes and the value of predicted class is also yes.
+
+True Negatives (TN) - These are the correctly predicted negative values which means that the value of actual class is no and value of predicted class is also no.
+
+False Positives (FP) – When actual class is no and predicted class is yes.
+
+False Negatives (FN) – When actual class is yes but predicted class in no.
+
+Accuracy - Accuracy is the most intuitive performance measure and it is simply a ratio of correctly predicted observation to the total observations.
+
+           Accuracy = TP+TN/TP+FP+FN+TN
+Precision - Precision is the ratio of correctly predicted positive observations to the total predicted positive observations.
+
+           Precision = TP/TP+FP
+Recall (Sensitivity) - Recall is the ratio of correctly predicted positive observations to the all observations in actual class - yes.
+
+           Recall = TP/TP+FN
+F1 score - F1 Score is the weighted average of Precision and Recall. Therefore, this score takes both false positives and false negatives into account.
+
+           F1 Score = 2(Recall Precision) / (Recall + Precision)
+Support - Support is the number of actual occurrences of the class in the specified dataset. Support doesn’t change between models but instead diagnoses the evaluation process.
  

@@ -1,9 +1,9 @@
 “A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.” To find that logic is called “machine learning”.
 
 ** Tom Mitchell **
-- 
+
 - Types of Machine learning Algorithms
-1- Supervised Learning: Input data is called training data and has a known label or result. Ex: Spam/not-spam or a stock price at a time.
+1- Supervised Learning: Input data(training data) and has a  label . Ex: Spam/not-spam  (stock price)
 2- Unsupervised Learning: Input data is not labeled and does not have a known result. EX: Grouping customers by purchasing behavior
 3- Semi-Supervised Learning: Input data is a mixture of labeled and unlabeled examples. EX: a photo archive where only some of the images are labeled, (e.g. dog, cat, person) and the majority are unlabeled.
 

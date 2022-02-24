@@ -54,19 +54,21 @@ Spot Check Algorithm
 - Information About Dataset columns and Summary
 - Cleaning Data Eliminate Null values and zeros, Drop dublicates
 - Data visualize  to see if data is balanced understand the reltionship between variables 
-
-* Feature Selection
-* Handling Outliers
-* Split the Data Frame into X and y
-* TRAIN TEST SPLIT
-* Build the Classification Algorithm
-
-- KNN
-- Naive Bayes
-- SVM
-- Decision Tree
-- Random Forest
+- Feature Selection
+- Handling Outliers
+- Split the Data Frame into X and y
+- TRAIN TEST SPLIT
+- Build the Classification Algorithm
+- KNearestNeighbors
 - Logistic Regression
+- Naive Bayes
+- DECISION TREE CLASSIFIER
+- RandomForestClassifier
+- AdaBoostClassifier
+- Gradient Boosting Classifier
+- XGBClassifier
+- ExtraTreesClassifier
+
 - Hyper Parameter Tuning using GridSearch CV
 - Fit Best Model
 - Predict on testing data using that model

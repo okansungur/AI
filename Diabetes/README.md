@@ -90,7 +90,7 @@ Differences in the scales across input variables may increase the difficulty of 
 outliers are still present in this dataset but their impact has been reduced and we will check it byboxplot again
 
 
-tune hyperparameters 
+###### Tune hyperparameters 
 After Grid Search, we got best parameters for all the models. Now tune hyperparameters see how to it performs.
 
 - True Positives (TP) - These are the correctly predicted positive values which means that the value of actual class is yes and the value of predicted class is also yes.

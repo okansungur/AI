@@ -47,7 +47,8 @@ Spot Check Algorithm
 - Converting fields to the correct format for calculations 
  
  <p></p>
- - Loading Dataset
+ 
+- Loading Dataset
 - Information About Dataset columns and Summary
 - Cleaning Data Eliminate Null values and zeros, Drop dublicates
 - Data visualize  to see if data is balanced understand the reltionship between variables 
@@ -57,47 +58,29 @@ Spot Check Algorithm
 - Scatter plots :- to understand relationship between any two variables
 - Pair plot :- to create scatter plot between all the variables
 
-- create helper parameters by creating new columns???
-
 * Feature Selection
 * Handling Outliers
-
 * Split the Data Frame into X and y
-
 * TRAIN TEST SPLIT
-
 * Build the Classification Algorithm
 
-
 - KNN
-
 - Naive Bayes
-
 - SVM
-
 - Decision Tree
-
 - Random Forest
-
 - Logistic Regression
-
-
 - Hyper Parameter Tuning using GridSearch CV
-
 - Fit Best Model
-
 - Predict on testing data using that model
-
 - Performance Metrics :- Confusion Matrix, F1 Score, Precision Score, Recall Score
 
-- llll
-Outliers
-Data Entry Errors,Data Entry Errors,Measurement Error,Natural Outlier
 
-- Using Z score method,we can find out how many standard deviations value away from the mean
+###### Outliers
+Data Entry Errors,Data Entry Errors,Measurement Error,Natural Outlier. 
+- Using Z score method (Find out how many standard deviations value away from the mean)
+- ROBUST Z-SCORE (Called as Median absolute deviation method. It is similar to Z-score method with some changes in parameters)
 
-- ROBUST Z-SCORE
-called as Median absolute deviation method. It is similar to Z-score method with some changes in parameters
  
  
  

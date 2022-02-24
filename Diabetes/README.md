@@ -2,10 +2,10 @@
 **Tom  Mitchell**
 
 ##### Types of Machine learning Algorithms
-1- *Supervised Learning*: Input data(training data) and has a  label or result . ex: Spam/not-spam  (stock price)
-2- *Unsupervised Learning*: Input data is not labeled and does not have a known result. ex: Grouping students  by marks
-3- *Semi-Supervised Learning*: Input data is a mixture of labeled and unlabeled examples. ex: a photo archive where only some of the images are labeled, (e.g. dog, cat, person) and the majority are unlabeled.
-4- *Reinforcement Learning*: A goal-oriented learning based on interaction with environment. Autonomous cars.
+1- *Supervised Learning*: Input data(training data) and has a  label or result . ex: Spam/not-spam  (stock price)\
+2- *Unsupervised Learning*: Input data is not labeled and does not have a known result. ex: Grouping students  by marks\
+3- *Semi-Supervised Learning*: Input data is a mixture of labeled and unlabeled examples. ex: a photo archive where only some of the images are labeled, (e.g. dog, cat, person) and the majority are unlabeled.\
+4- *Reinforcement Learning*: A goal-oriented learning based on interaction with environment. Autonomous cars.\
 
   
 ###### Supervised Machine Learning

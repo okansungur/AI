@@ -54,11 +54,6 @@ Spot Check Algorithm
 - Information About Dataset columns and Summary
 - Cleaning Data Eliminate Null values and zeros, Drop dublicates
 - Data visualize  to see if data is balanced understand the reltionship between variables 
-- Count Plot :- to see if the dataset is balanced or not
-- Histograms :- to see if data is normally distributed or skewed
-- Box Plot :- to analyse the distribution and see the outliers
-- Scatter plots :- to understand relationship between any two variables
-- Pair plot :- to create scatter plot between all the variables
 
 * Feature Selection
 * Handling Outliers

@@ -82,7 +82,8 @@ Data Entry Errors,Data Entry Errors,Measurement Error,Natural Outlier.
 
  ###### Feature Scaling
   It is a technique to standardize the independent features present in the data in a fixed range. It is performed during the data pre-processing to handle highly varying magnitudes or values or units. If feature scaling is not done, then a machine learning algorithm tends to weigh greater values, higher and consider smaller values as the lower values, regardless of the unit of the values.
-Standard Scaler: It is a very effective technique which re-scales a feature value so that it has distribution with 0 mean value and variance equals to 1.
+###### Standard Scaler:
+ It is a very effective technique which re-scales a feature value so that it has distribution with 0 mean value and variance equals to 1.
 Differences in the scales across input variables may increase the difficulty of the problem being modeled. An example of this is that large input values (e.g. a spread of hundreds or thousands of units) can result in a model that learns large weight values. A model with large weight values is often unstable, meaning that it may suffer from poor performance during learning and sensitivity to input values resulting in higher generalization error.
 ###### Quantile Transformer 
  Now we will use Quantile Transformer  This method transforms the features to follow a uniform or a normal distribution.

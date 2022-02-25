@@ -104,8 +104,14 @@ Differences in the scales across input variables may increase the difficulty of 
 outliers are still present in this dataset but their impact has been reduced and we will check it byboxplot again
 
 
+
+
+
+
+
 ###### Tune hyperparameters 
-After Grid Search, we got best parameters for all the models. Now tune hyperparameters see how to it performs.
+The confusion matrix is a matrix used to determine the performance of the classification models for a given set of test data. It can only be determined if the true values for test data are known. It evaluates the performance of the classification models, shows the errors made by the classifiers, calculates the different parameters for the model, such as accuracy, precision
+The true positive rate, also known as sensitivity or recall in machine learning.
 
 - True Positives (TP) - These are the correctly predicted positive values which means that the value of actual class is yes and the value of predicted class is also yes.
 

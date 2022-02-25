@@ -64,14 +64,14 @@ _Objective_: Decide whether someone has diabetes or not.
 The result variable value is either 1 or 0 indicating whether a person has diabetes(1) or not(0).
 
 
--1 Import Libraries and Load Dataset
--2 Information about the Dataset
--3 Cleaning the Data (Eliminate Null values and zeros, Drop duplicates)
--4 Data visualize  For a better understanding the reltionship between variables and data distribution
--5 Feature Selection
--6 Handling Outliers
--7 Split the Data Frame into X and y
--8 Train Test Split
+- 1-Import Libraries and Load Dataset
+- 2- Information about the Dataset
+- 3- Cleaning the Data (Eliminate Null values and zeros, Drop duplicates)
+- 4- Data visualize  For a better understanding the reltionship between variables and data distribution
+- 5- Feature Selection
+- 6- Handling Outliers
+- 7- Split the Data Frame into X and y
+- 8- Train Test Split
 - Build the Classification Algorithm
 - KNearestNeighbors
 - Logistic Regression

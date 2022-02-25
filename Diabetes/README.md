@@ -32,7 +32,8 @@
 
 ###### Data Visualization methods 
 - Data Selection
-- Feature Selection methods ..
+- Feature Selection methods (Pearson Correlation. This is a filter-based method.Chi-Squared. This is another filter-based method.Recursive Feature Elimination. This is a wrapper based method.Lasso: Select From Model.
+Tree-based: Select From Model. This is an Embedded method.)
 - Feature Engineering methods ..(Create new feature)
 - Data Transormation methods ..(Binning of Data)
 - Spot Check Algorithm

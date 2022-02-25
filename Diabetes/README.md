@@ -55,9 +55,9 @@ _Objective_: Decide whether someone has diabetes or not.
 - BloodPressure : Diastollic Blood Pressure (mm hg)
 - SkinThickness : Triceps skin fold thickness(mm)
 - Insulin : 2 hour serum insulin(mu U/ml)
-- BMI : Body Mass Index ((weight in kg/height in m)^2)
+- BodyMassIndex : Body Mass Index ((weight in kg/height in m)^2)
 - Age : Age(years)
-- DiabetesPedigreeFunction :scores likelihood of diabetes based on family history)
+- DiabeteFamilyHistory :scores likelihood of diabetes based on family history)
 - Result : 0(doesn't have diabetes) or 1 (has diabetes) (Dependent value while others are independent)
 
 The result variable value is either 1 or 0 indicating whether a person has diabetes(1) or not(0).

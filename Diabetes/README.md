@@ -49,6 +49,7 @@ Spot Check Algorithm
  <p></p>
  
 ###### Sample Diabetes ML  
+**Diabetes**:Diabetes is a chronic (long-lasting) health condition that affects how your body turns food into energy. It occurs either when the pancreas does not produce enough insulin or when the body cannot effectively use the insulin it produces. Diabetes can cause heart attack, heart failure, stroke, kidney failure and coma.
 _Objective_: Decide whether someone has diabetes or not.
 - Pregnancies : Number of times a woman has been pregnant
 - Glucose : Plasma Glucose concentration of 2 hours in an oral glucose tolerance test
@@ -56,8 +57,8 @@ _Objective_: Decide whether someone has diabetes or not.
 - SkinThickness : Triceps skin fold thickness(mm)
 - Insulin : 2 hour serum insulin(mu U/ml)
 - BodyMassIndex : Body Mass Index ((weight in kg/height in m)^2)
-- Age : Age(years)
-- DiabeteFamilyHistory :scores likelihood of diabetes based on family history)
+- Age : (years)
+- DiabeteFamilyHistory :scores of diabetes based on family history)
 - Result : 0(doesn't have diabetes) or 1 (has diabetes) (Dependent value while others are independent)
 
 The result variable value is either 1 or 0 indicating whether a person has diabetes(1) or not(0).

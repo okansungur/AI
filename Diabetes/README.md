@@ -31,11 +31,11 @@ Define Problem
 
 
 ###### Data Visualization methods 
-Data Selection
-Feature Selection methods ..
-Feature Engineering methods ..
-Data Transormation methods ..
-Spot Check Algorithm
+- Data Selection
+- Feature Selection methods ..
+- Feature Engineering methods ..
+- Data Transormation methods ..
+- Spot Check Algorithm
 
 
 

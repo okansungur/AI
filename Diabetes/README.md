@@ -17,17 +17,17 @@
 - Deep Learning Algorithms: Convolution Neural Network
 
 ###### Classification vs Regression
-Classification predicting a label 
-Regression predicting a quantity.
+- Classification predicting a label 
+- Regression predicting a quantity.
 
 ###### Classification Algorithms Examples:
-Linear: Linear Regression, Logistic Regression
-Nonlinear: Trees, k-Nearest Neighbors
-Ensemble:
-Bagging: Random Forest
-Boosting: AdaBoost
-Machine Learning Pipeline:
-Define Problem
+- Linear: Linear Regression, Logistic Regression
+- Nonlinear: Trees, k-Nearest Neighbors
+- Ensemble:
+- Bagging: Random Forest
+- Boosting: AdaBoost
+- Machine Learning Pipeline:
+
 
 
 ###### Data Visualization methods 

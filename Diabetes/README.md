@@ -33,8 +33,8 @@
 ###### Data Visualization methods 
 - Data Selection
 - Feature Selection methods ..
-- Feature Engineering methods ..
-- Data Transormation methods ..
+- Feature Engineering methods ..(Create new feature)
+- Data Transormation methods ..(Binning of Data)
 - Spot Check Algorithm
 
 

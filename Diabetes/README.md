@@ -71,12 +71,12 @@ The result variable value is either 1 or 0 indicating whether a person has diabe
 - Feature Selection
 - Handling Outliers
 - Split the Data Frame into X and y
-- TRAIN TEST SPLIT
+- Train Test Split
 - Build the Classification Algorithm
 - KNearestNeighbors
 - Logistic Regression
 - Naive Bayes
-- DECISION TREE CLASSIFIER
+- Decision Tree Classifier
 - RandomForestClassifier
 - AdaBoostClassifier
 - Gradient Boosting Classifier

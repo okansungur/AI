@@ -254,6 +254,35 @@ __How to Address Underfitting:__
 - Hyperparameter Tuning: Optimize parameters like learning rate, number of layers, or units in a neural network.
 
 
+###### Bias-variance tradeoff
+Balance between these two is key to building a model that generalizes well to unseen data.
+
+__Bias:__ the model is too simple and fails to capture the underlying patterns in the data (underfitting).
+Using overly simplistic models (e.g., linear regression for nonlinear data).Ignoring important features in the data.
+
+__Variance:__ The model is too complex and fits the noise in the training data rather than the underlying pattern (overfitting).
+Overly complex models (e.g., deep neural networks with excessive layers or overly deep decision trees).Lack of sufficient training data.
+
+__To Reduce Bias (Underfitting):__
+
+- Use a more complex model.
+- Add relevant features or improve feature engineering.
+- Train for more iterations.
+- Reduce regularization (e.g., decrease L1/L2 penalty).
+  
+__To Reduce Variance (Overfitting):__
+- Use a simpler model.
+- Gather more training data.
+- Apply regularization (e.g., L1/L2 penalties, dropout).
+- Use techniques like early stopping.
+- Employ ensemble methods (e.g., bagging, random forests).
+  
+__To Balance Both:__
+- Perform cross-validation to evaluate model performance.
+- Use hyperparameter tuning to find the right complexity (e.g., tree depth, number of layers).
+- Monitor both training and validation errors to detect underfitting or overfitting.
+
+
 
 
 ###### The 4 C's of Data Cleaning: Correcting, Completing, Creating, and Converting

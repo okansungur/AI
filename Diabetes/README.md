@@ -8,10 +8,9 @@
 
 3- *Semi-Supervised Learning*: (Speech Recognition) Input data is a mixture of labeled and unlabeled examples. ex: a photo archive where only some of the images are labeled, (e.g. dog, cat, person) and the majority are unlabeled.
 
-4- *Reinforcement Learning*: A goal-oriented learning based on interaction with environment. Autonomous cars.Robotics, Games, Mouse Neurons learn to play Pong doom, incubator.
+4- *Reinforcement Learning*: A goal-oriented learning based on interaction with environment. Self-driving cars, Robotics, Games,Healtcare, Mouse Neurons learn to play Pong doom, incubator.
 
-  
-###### Supervised Machine Learning
+  ###### Supervised Machine Learning
 - Regression: Linear Regression, Logistic Regression
 - Instance-based Algorithms: k-Nearest Neighbor (KNN)
 - Decision Tree Algorithms: CART
@@ -185,6 +184,35 @@ Tree-based: Select From Model. This is an Embedded method.)
 - Feature Engineering methods ..(Create new feature)
 - Data Transormation methods ..(Binning of Data)
 - Spot Check Algorithm
+
+
+###### Overfitting
+Definition: Overfitting occurs when a model learns not only the underlying patterns in the training data but also the noise and random fluctuations, leading to poor performance on unseen data.
+
+#######  Symptoms of Overfitting:
+-Very high accuracy on training data but low accuracy on validation/test data.
+- Large gap between training and validation loss.
+#######  Causes of Overfitting:
+- Model Complexity: The model has too many parameters or is too flexible (e.g., deep neural networks with too many layers).
+- Insufficient Training Data: The model memorizes the training set instead of learning general patterns.
+- Noise in the Data: The model tries to fit irrelevant details or outliers.
+#######  How to Prevent Overfitting:
+- Reduce Model Complexity:
+- Use simpler models (e.g., fewer layers or smaller decision trees).
+#######  Regularization:
+- L1 Regularization: Adds a penalty proportional to the absolute values of weights (encourages sparsity).
+- L2 Regularization: Adds a penalty proportional to the square of weights (encourages smaller weights).
+#######  Increase Training Data:
+- Collect more samples or use data augmentation techniques.
+#######  Dropout:
+- Randomly "drop" units in a neural network during training to reduce reliance on specific neurons.
+#######  Early Stopping:
+- Monitor the model's performance on validation data and stop training when performance stops improving.
+#######  Cross-Validation:
+- Use techniques like k-fold cross-validation to ensure robust evaluation.
+#######  Prune Decision Trees:
+Limit tree depth or prune unnecessary branches.
+
 
 
 

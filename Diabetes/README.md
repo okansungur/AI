@@ -189,10 +189,10 @@ Tree-based: Select From Model. This is an Embedded method.)
 ###### Overfitting
 Definition: Overfitting occurs when a model learns not only the underlying patterns in the training data but also the noise and random fluctuations, leading to poor performance on unseen data.
 
-#######  Symptoms of Overfitting:
+__Symptoms of Overfitting:__
 -Very high accuracy on training data but low accuracy on validation/test data.
 - Large gap between training and validation loss.
-#######  Causes of Overfitting:
+__Causes of Overfitting:__
 - Model Complexity: The model has too many parameters or is too flexible (e.g., deep neural networks with too many layers).
 - Insufficient Training Data: The model memorizes the training set instead of learning general patterns.
 - Noise in the Data: The model tries to fit irrelevant details or outliers.

@@ -100,6 +100,8 @@ For Regression:
 Leverages pre-trained models to solve similar tasks with less data.
 Common in deep learning for NLP and image recognition tasks.
 
+###### -----------------------------------------------------------------------------------------------------
+
 ###### Clustering
 Groups data points into clusters based on similarity.
 Key algorithms:
@@ -108,6 +110,71 @@ Key algorithms:
 - DBSCAN: Density-based clustering, handles noise well.
 - Gaussian Mixture Models (GMMs): Uses probabilistic modeling.
 - Mean-Shift: Identifies high-density regions.
+
+###### Dimensionality Reduction
+Reduces the number of features while preserving important information.
+Useful for visualization, noise reduction, and speeding up computations.
+Key methods:
+- Principal Component Analysis (PCA): Projects data onto principal components that explain the most variance.
+- t-SNE (t-Distributed Stochastic Neighbor Embedding): Visualizes high-dimensional data in 2D/3D.
+- UMAP (Uniform Manifold Approximation and Projection): Similar to t-SNE but faster and scalable.
+- Autoencoders: Neural networks for encoding and reconstructing data.
+
+###### Density Estimation
+Estimates the probability distribution of data.
+Applications include anomaly detection and data generation.
+Key techniques:
+- Kernel Density Estimation (KDE): Non-parametric density estimation.
+- Gaussian Mixture Models (GMMs): Models data as a mixture of Gaussian distributions.
+
+###### Association Rule Learning
+Discovers relationships or patterns among features in data.
+Commonly used in market basket analysis.
+Key algorithms:
+- Apriori: Identifies frequent itemsets and generates association rules.
+- Eclat: Uses a vertical data format for frequent itemset mining.
+- FP-Growth (Frequent Pattern Growth): Scales better for large datasets.
+
+###### Matrix Factorization
+Decomposes a matrix into lower-dimensional representations.
+Applications: recommendation systems, image compression.
+Key methods:
+- Singular Value Decomposition (SVD).
+- Non-Negative Matrix Factorization (NMF).
+
+
+###### Generative Models
+Learns to generate new data similar to the input data.
+Key techniques:
+- GANs (Generative Adversarial Networks): Uses two networks (generator and discriminator) to generate realistic data.
+- Variational Autoencoders (VAEs): Probabilistic approach to data generation.
+
+
+
+###### Anomaly Detection
+Identifies data points that deviate significantly from the norm.
+Key methods:
+- Isolation Forests: Splits data recursively to isolate anomalies.
+- One-Class SVM: Separates normal data from outliers.
+- Density-Based Methods: Detect anomalies in low-density regions.
+
+
+###### Manifold Learning
+Captures complex, nonlinear structures in data.
+Useful for visualization and dimensionality reduction.
+Key techniques:
+- ISOMAP: Preserves geodesic distances on a manifold.
+- LLE (Locally Linear Embedding): Preserves local neighborhood structure.
+
+
+###### Self-Organizing Maps (SOMs)
+A type of neural network that maps high-dimensional data into a low-dimensional grid.
+Commonly used for visualization and clustering.
+
+
+###### Biclustering
+Simultaneously clusters rows and columns of a data matrix.
+Useful in bioinformatics (e.g., gene-expression analysis).
 
 
 

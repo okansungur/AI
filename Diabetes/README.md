@@ -221,6 +221,29 @@ Limit tree depth or prune unnecessary branches.
 
 
 
+###### Underfitting
+Definition: Underfitting occurs when a model is too simple to capture the underlying patterns in the data, resulting in poor performance on both training and test data.
+
+__Symptoms of Underfitting:__
+- Low accuracy on both training and validation/test data.
+- Training and validation loss do not decrease significantly.
+__Causes of Underfitting:__
+- Insufficient Model Complexity:
+The model lacks the capacity to represent the data (e.g., a linear model used for nonlinear data).
+- Insufficient Training:
+The model has not been trained for enough epochs or iterations.
+- Poor Feature Representation:
+Important features are missing or incorrectly engineered.
+__How to Address Underfitting:__
+- Increase Model Complexity:Use more complex models (e.g., deeper networks, more layers, or higher polynomial degrees).
+- Train for More Epochs:Allow the model to learn longer by training for more iterations.
+- Improve Feature Engineering:  Add more relevant features or use techniques like feature transformation.
+- Reduce Regularization:If regularization is too strong, it may constrain the model excessively.
+- Hyperparameter Tuning: Optimize parameters like learning rate, number of layers, or units in a neural network.
+
+
+
+
 ###### The 4 C's of Data Cleaning: Correcting, Completing, Creating, and Converting
 - Correcting abnormal values and outliers  (age = 800 instead of 80)
 - Completing missing information  (null) use  mean, median

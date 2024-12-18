@@ -2,9 +2,9 @@
 **Tom  Mitchell**
 
 ##### Types of Machine learning Algorithms
-1- *Supervised Learning*: Input data(training data) and has a  label or result . ex: Spam/not-spam  (stock price)\
-2- *Unsupervised Learning*: Input data is not labeled and does not have a known result. ex: Grouping students  by marks\
-3- *Semi-Supervised Learning*: Input data is a mixture of labeled and unlabeled examples. ex: a photo archive where only some of the images are labeled, (e.g. dog, cat, person) and the majority are unlabeled.\
+1- *Supervised Learning*: Input data(training data) and has a  label or result . ex: Spam/not-spam. Classification, Regression,Ensemble Methods,Neural Networks,Probabilistic Models, Hyperparameter Optimization, Evaluation and Metrics, Feature Engineering, Regularization, Transfer Learning, 
+2- *Unsupervised Learning*: Input data is not labeled and does not have a known result. ex: Grouping students  by marks.Key techniques in unsupervised learning:Clustering,Dimensionality Reduction, Density Estimation,Association Rule Learning,Matrix Factorization,Generative Models,Manifold Learning,Self-Organizing Maps (SOMs)
+3- *Semi-Supervised Learning*: (Speech Recognition) Input data is a mixture of labeled and unlabeled examples. ex: a photo archive where only some of the images are labeled, (e.g. dog, cat, person) and the majority are unlabeled.\
 4- *Reinforcement Learning*: A goal-oriented learning based on interaction with environment. Autonomous cars.
 
   
@@ -20,13 +20,91 @@
 - Classification predicting a label 
 - Regression predicting a quantity.
 
-###### Classification Algorithms Examples:
+###### Classification Algorithms Examples: Predicts a discrete label or category.
 - Linear: Linear Regression, Logistic Regression
 - Nonlinear: Trees, k-Nearest Neighbors
 - Ensemble:
 - Bagging: Random Forest
 - Boosting: AdaBoost
-- Machine Learning Pipeline:
+- Decision Trees: Rule-based model for splitting data into classes.
+- Random Forest: An ensemble of decision trees to improve accuracy and reduce overfitting.
+- Support Vector Machines (SVM): Finds the hyperplane that best separates classes.
+- Naive Bayes: Probabilistic model based on Bayes' theorem.
+- K-Nearest Neighbors (KNN): Classifies based on the majority class of nearest neighbors.
+- Neural Networks: Deep learning models for complex classification tasks.
+
+ ###### Regression Predicts a continuous output.
+Common Algorithms:
+- Linear Regression: Models a linear relationship between features and the target.
+- Ridge and Lasso Regression: Add regularization to linear regression to prevent overfitting.
+- Polynomial Regression: Models nonlinear relationships using polynomial features.
+- Decision Trees and Random Forest (Regression variants).
+- Support Vector Regression (SVR): Extension of SVM for regression.
+- Neural Networks: Handle complex relationships for continuous outputs.
+
+ ###### Ensemble Methods
+Combine multiple models to improve accuracy and robustness.
+Key Techniques:
+- Bagging: Trains multiple models on different subsets of data.
+- Example: Random Forest.
+- Boosting: Sequentially trains models, focusing on errors of the previous ones.
+- Example: Gradient Boosting, XGBoost, LightGBM, AdaBoost.
+- Stacking: Combines predictions from multiple models using a meta-model.
+- 
+###### Neural Networks
+- Feedforward Neural Networks (FNNs): Used for both classification and regression.
+- Convolutional Neural Networks (CNNs): Specialized for image data.
+- Recurrent Neural Networks (RNNs): Handle sequential data like time series or text.
+- Transformer Models: Advanced architecture for NLP and time series (e.g., BERT, GPT).
+
+###### Probabilistic Models
+Predict outcomes based on probability distributions.
+Key Techniques:
+- Bayesian Linear Regression.
+- Hidden Markov Models (HMMs): For time-series data.
+- Gaussian Processes: For regression with uncertainty estimation.
+
+###### Hyperparameter Optimization
+Techniques to fine-tune model parameters.
+- Common Methods:
+- Grid Search: Tries all combinations of parameters.
+- Random Search: Samples random combinations of parameters.
+- Bayesian Optimization: Uses probabilistic modeling for efficient search.
+
+###### Evaluation and Metrics
+Techniques to evaluate model performance.
+For Classification:
+
+- Accuracy, Precision, Recall, F1-Score, ROC-AUC.
+For Regression:
+
+- Mean Squared Error (MSE), Mean Absolute Error (MAE), R-squared.
+
+###### Feature Engineering
+- Feature Selection: Identifies important features (e.g., Recursive Feature Elimination, Lasso).
+- Feature Transformation: Transforms features for better performance (e.g., scaling, encoding, PCA).
+- Feature Extraction: Derives new features (e.g., embedding layers in neural networks).
+
+
+###### Regularization
+- Techniques to prevent overfitting:
+- L1 Regularization (Lasso): Encourages sparsity in features.
+- L2 Regularization (Ridge): Penalizes large coefficients.
+- Dropout: Randomly drops neurons in neural networks.
+
+
+######  Transfer Learning
+Leverages pre-trained models to solve similar tasks with less data.
+Common in deep learning for NLP and image recognition tasks.
+
+###### Clustering
+Groups data points into clusters based on similarity.
+Key algorithms:
+- K-Means: Partition-based clustering.
+- Hierarchical Clustering: Builds a hierarchy of clusters.
+- DBSCAN: Density-based clustering, handles noise well.
+- Gaussian Mixture Models (GMMs): Uses probabilistic modeling.
+- Mean-Shift: Identifies high-density regions.
 
 
 

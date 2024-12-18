@@ -190,27 +190,31 @@ Tree-based: Select From Model. This is an Embedded method.)
 Definition: Overfitting occurs when a model learns not only the underlying patterns in the training data but also the noise and random fluctuations, leading to poor performance on unseen data.
 
 __Symptoms of Overfitting:__
+
 -Very high accuracy on training data but low accuracy on validation/test data.
 - Large gap between training and validation loss.
+- 
 __Causes of Overfitting:__
+
 - Model Complexity: The model has too many parameters or is too flexible (e.g., deep neural networks with too many layers).
 - Insufficient Training Data: The model memorizes the training set instead of learning general patterns.
 - Noise in the Data: The model tries to fit irrelevant details or outliers.
-#######  How to Prevent Overfitting:
+  
+__How to Prevent Overfitting:__
 - Reduce Model Complexity:
 - Use simpler models (e.g., fewer layers or smaller decision trees).
-#######  Regularization:
+- Regularization:
 - L1 Regularization: Adds a penalty proportional to the absolute values of weights (encourages sparsity).
 - L2 Regularization: Adds a penalty proportional to the square of weights (encourages smaller weights).
-#######  Increase Training Data:
+__Increase Training Data:__
 - Collect more samples or use data augmentation techniques.
-#######  Dropout:
+ __Dropout:__
 - Randomly "drop" units in a neural network during training to reduce reliance on specific neurons.
-#######  Early Stopping:
+__Early Stopping:__
 - Monitor the model's performance on validation data and stop training when performance stops improving.
-#######  Cross-Validation:
+__Cross-Validation:__
 - Use techniques like k-fold cross-validation to ensure robust evaluation.
-#######  Prune Decision Trees:
+__Prune Decision Trees:__
 Limit tree depth or prune unnecessary branches.
 
 

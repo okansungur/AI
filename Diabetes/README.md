@@ -211,13 +211,21 @@ __How to Prevent Overfitting:__
 __Increase Training Data:__
 
 - Collect more samples or use data augmentation techniques.
+  
  __Dropout:__
+ 
 - Randomly "drop" units in a neural network during training to reduce reliance on specific neurons.
+  
 __Early Stopping:__
+
 - Monitor the model's performance on validation data and stop training when performance stops improving.
+  
 __Cross-Validation:__
+
 - Use techniques like k-fold cross-validation to ensure robust evaluation.
+  
 __Prune Decision Trees:__
+
 Limit tree depth or prune unnecessary branches.
 
 
@@ -228,8 +236,10 @@ Limit tree depth or prune unnecessary branches.
 Definition: Underfitting occurs when a model is too simple to capture the underlying patterns in the data, resulting in poor performance on both training and test data.
 
 __Symptoms of Underfitting:__
+
 - Low accuracy on both training and validation/test data.
 - Training and validation loss do not decrease significantly.
+  
 __Causes of Underfitting:__
 - Insufficient Model Complexity:
 The model lacks the capacity to represent the data (e.g., a linear model used for nonlinear data).
@@ -237,7 +247,9 @@ The model lacks the capacity to represent the data (e.g., a linear model used fo
 The model has not been trained for enough epochs or iterations.
 - Poor Feature Representation:
 Important features are missing or incorrectly engineered.
+
 __How to Address Underfitting:__
+
 - Increase Model Complexity:Use more complex models (e.g., deeper networks, more layers, or higher polynomial degrees).
 - Train for More Epochs:Allow the model to learn longer by training for more iterations.
 - Improve Feature Engineering:  Add more relevant features or use techniques like feature transformation.

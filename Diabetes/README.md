@@ -193,7 +193,7 @@ __Symptoms of Overfitting:__
 
 -Very high accuracy on training data but low accuracy on validation/test data.
 - Large gap between training and validation loss.
-- 
+  
 __Causes of Overfitting:__
 
 - Model Complexity: The model has too many parameters or is too flexible (e.g., deep neural networks with too many layers).
@@ -201,12 +201,15 @@ __Causes of Overfitting:__
 - Noise in the Data: The model tries to fit irrelevant details or outliers.
   
 __How to Prevent Overfitting:__
+
 - Reduce Model Complexity:
 - Use simpler models (e.g., fewer layers or smaller decision trees).
 - Regularization:
 - L1 Regularization: Adds a penalty proportional to the absolute values of weights (encourages sparsity).
 - L2 Regularization: Adds a penalty proportional to the square of weights (encourages smaller weights).
+- 
 __Increase Training Data:__
+
 - Collect more samples or use data augmentation techniques.
  __Dropout:__
 - Randomly "drop" units in a neural network during training to reduce reliance on specific neurons.

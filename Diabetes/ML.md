@@ -318,5 +318,14 @@ The __AUC-ROC curve__ is a graphical and numerical metric used to evaluate the p
 When to Use AUC-ROC
 - Balanced Datasets: Works well when classes are roughly balanced.
 - Binary Classification Designed for evaluating binary classifiers. For multi-class problem
+AUC (Area Under the Curve)  ROC (Receiver Operating Characteristic)
+
+- High AUC:The model performs well at distinguishing between the two classes.
+  
+- AUC Close to 0.5:The model performs no better than random guessing.
+  
+- Steep Curve:A steep rise indicates that the model achieves a high true positive rate with a low false positive rate.
+
+
 
 

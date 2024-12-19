@@ -327,5 +327,7 @@ AUC (Area Under the Curve)  ROC (Receiver Operating Characteristic)
 - Steep Curve:A steep rise indicates that the model achieves a high true positive rate with a low false positive rate.
 
 
+__Feature engineering:__ is the process of creating, selecting, and transforming features (input variables) to improve the performance of a machine learning model
+Improves Model Performance, Reduces Model Complexity, Handles Data Issues, Enhances Interpretability.
 
 

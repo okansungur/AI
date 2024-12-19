@@ -298,12 +298,25 @@ Patterns are Underfitting,Overfitting, Good Fit (well generalized model)
 
 
 
-
-
-
-
 ###### The 4 C's of Data Cleaning: Correcting, Completing, Creating, and Converting
 - Correcting abnormal values and outliers  (age = 800 instead of 80)
 - Completing missing information  (null) use  mean, median
 - Creating new features for analysis  ( use existing features to create new features)
-- Converting fields to the correct format for cal
+- Converting fields to the correct format for calculations
+
+
+
+
+
+
+
+
+
+The __AUC-ROC curve__ is a graphical and numerical metric used to evaluate the performance of a binary classification model.
+- AUC-ROC evaluates the model's performance across all possible classification thresholds.
+- The ROC curve demonstrates how sensitivity and specificity change with varying thresholds.
+When to Use AUC-ROC
+- Balanced Datasets: Works well when classes are roughly balanced.
+- Binary Classification Designed for evaluating binary classifiers. For multi-class problem
+
+

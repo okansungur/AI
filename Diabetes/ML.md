@@ -283,6 +283,23 @@ __To Balance Both:__
 - Monitor both training and validation errors to detect underfitting or overfitting.
 
 
+__Confusion Matrix:__  A confusion matrix is a performance evaluation tool in machine learning, representing the accuracy of a classification model
+
+__Imputation:__ is the process of replacing missing or incomplete data in a dataset with substituted values to ensure that the dataset can be analyzed or modeled effectively.It is a common preprocessing step in data cleaning and machine learning workflows.
+
+__Common Imputation Techniques:__
+1- Simple Imputation: Mean Imputation, Median Imputation (More robust to outliers than mean imputation), Mode Imputation(replace with most frequent value Categorical Data)
+
+2- Advanced Statistical Imputation: K-Nearest Neighbors (KNN) Imputation, Regression, Iterative Imputation(forward,backward),Probabilistic, Custom  - Domain Specific 
+
+__Learning Curve :__ A learning curve is a graphical representation that shows how a machine learning model's performance. It helps evaluate a model's learning progress, diagnose underfitting/overfitting, and determine if more data or model adjustments are needed. Components are Training, Validation(Test)
+Patterns are Underfitting,Overfitting, Good Fit (well generalized model)
+
+
+
+
+
+
 
 
 ###### The 4 C's of Data Cleaning: Correcting, Completing, Creating, and Converting
